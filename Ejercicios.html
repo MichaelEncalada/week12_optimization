@@ -14708,7 +14708,7 @@ Successfully installed pulp-2.9.0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pulp</span> <span class="k">as</span> <span class="nn">pp</span>
@@ -14724,7 +14724,7 @@ Successfully installed pulp-2.9.0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">model</span> <span class="o">=</span> <span class="n">pp</span><span class="o">.</span><span class="n">LpProblem</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;medicine-problem&#39;</span><span class="p">,</span> <span class="c1"># just the name</span>
@@ -14741,7 +14741,7 @@ Successfully installed pulp-2.9.0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># how much gas?</span>
@@ -14765,7 +14765,7 @@ Successfully installed pulp-2.9.0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">VVCoeff</span><span class="o">=</span><span class="mf">0.2</span>
@@ -14783,7 +14783,7 @@ Successfully installed pulp-2.9.0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">C1</span><span class="o">=</span> <span class="n">pp</span><span class="o">.</span><span class="n">LpConstraint</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;Vitamin C Constraint&#39;</span><span class="p">,</span>   <span class="c1"># just the name</span>
@@ -14813,7 +14813,7 @@ Successfully installed pulp-2.9.0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">model</span> <span class="o">+=</span> <span class="n">obj_func</span>
@@ -14832,7 +14832,7 @@ Successfully installed pulp-2.9.0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">solver_list</span> <span class="o">=</span> <span class="n">pp</span><span class="o">.</span><span class="n">listSolvers</span><span class="p">()</span>
@@ -14872,7 +14872,7 @@ Successfully installed pulp-2.9.0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">solverToUse</span><span class="o">=</span> <span class="n">pp</span><span class="o">.</span><span class="n">COIN_CMD</span><span class="p">(</span><span class="n">msg</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
@@ -14889,46 +14889,7 @@ Successfully installed pulp-2.9.0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>pip install numpy&lt;<span class="m">2</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>El sistema no puede encontrar el archivo especificado.
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -14954,209 +14915,7 @@ Successfully installed pulp-2.9.0
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>
-A module that was compiled using NumPy 1.x cannot be run in
-NumPy 2.0.2 as it may crash. To support both 1.x and 2.x
-versions of NumPy, modules must be compiled with NumPy 2.0.
-Some module may need to rebuild instead e.g. with &#39;pybind11&gt;=2.12&#39;.
-
-If you are a user of the module, the easiest solution will be to
-downgrade to &#39;numpy&lt;2&#39; or try to upgrade the affected module.
-We expect that some modules will need time to support NumPy 2.
-
-Traceback (most recent call last):  File &#34;C:\Users\Michael Encalada\anaconda3\lib\runpy.py&#34;, line 197, in _run_module_as_main
-    return _run_code(code, main_globals, None,
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\runpy.py&#34;, line 87, in _run_code
-    exec(code, run_globals)
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\ipykernel_launcher.py&#34;, line 17, in &lt;module&gt;
-    app.launch_new_instance()
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\traitlets\config\application.py&#34;, line 846, in launch_instance
-    app.start()
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\ipykernel\kernelapp.py&#34;, line 712, in start
-    self.io_loop.start()
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\tornado\platform\asyncio.py&#34;, line 199, in start
-    self.asyncio_loop.run_forever()
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\asyncio\base_events.py&#34;, line 601, in run_forever
-    self._run_once()
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\asyncio\base_events.py&#34;, line 1905, in _run_once
-    handle._run()
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\asyncio\events.py&#34;, line 80, in _run
-    self._context.run(self._callback, *self._args)
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\ipykernel\kernelbase.py&#34;, line 510, in dispatch_queue
-    await self.process_one()
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\ipykernel\kernelbase.py&#34;, line 499, in process_one
-    await dispatch(*args)
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\ipykernel\kernelbase.py&#34;, line 406, in dispatch_shell
-    await result
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\ipykernel\kernelbase.py&#34;, line 730, in execute_request
-    reply_content = await reply_content
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\ipykernel\ipkernel.py&#34;, line 390, in do_execute
-    res = shell.run_cell(code, store_history=store_history, silent=silent)
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\ipykernel\zmqshell.py&#34;, line 528, in run_cell
-    return super().run_cell(*args, **kwargs)
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\IPython\core\interactiveshell.py&#34;, line 2914, in run_cell
-    result = self._run_cell(
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\IPython\core\interactiveshell.py&#34;, line 2960, in _run_cell
-    return runner(coro)
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\IPython\core\async_helpers.py&#34;, line 78, in _pseudo_sync_runner
-    coro.send(None)
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\IPython\core\interactiveshell.py&#34;, line 3185, in run_cell_async
-    has_raised = await self.run_ast_nodes(code_ast.body, cell_name,
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\IPython\core\interactiveshell.py&#34;, line 3377, in run_ast_nodes
-    if (await self.run_code(code, result,  async_=asy)):
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\IPython\core\interactiveshell.py&#34;, line 3457, in run_code
-    exec(code_obj, self.user_global_ns, self.user_ns)
-  File &#34;C:\Users\Michael Encalada\AppData\Local\Temp\ipykernel_26504\1517683204.py&#34;, line 1, in &lt;module&gt;
-    import pandas as pd
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\pandas\__init__.py&#34;, line 80, in &lt;module&gt;
-    from pandas.core.api import (
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\pandas\core\api.py&#34;, line 28, in &lt;module&gt;
-    from pandas.core.arrays import Categorical
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\pandas\core\arrays\__init__.py&#34;, line 1, in &lt;module&gt;
-    from pandas.core.arrays.arrow import ArrowExtensionArray
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\pandas\core\arrays\arrow\__init__.py&#34;, line 5, in &lt;module&gt;
-    from pandas.core.arrays.arrow.array import ArrowExtensionArray
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\pandas\core\arrays\arrow\array.py&#34;, line 50, in &lt;module&gt;
-    from pandas.core import (
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\pandas\core\ops\__init__.py&#34;, line 8, in &lt;module&gt;
-    from pandas.core.ops.array_ops import (
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\pandas\core\ops\array_ops.py&#34;, line 56, in &lt;module&gt;
-    from pandas.core.computation import expressions
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\pandas\core\computation\expressions.py&#34;, line 21, in &lt;module&gt;
-    from pandas.core.computation.check import NUMEXPR_INSTALLED
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\pandas\core\computation\check.py&#34;, line 5, in &lt;module&gt;
-    ne = import_optional_dependency(&#34;numexpr&#34;, errors=&#34;warn&#34;)
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\pandas\compat\_optional.py&#34;, line 135, in import_optional_dependency
-    module = importlib.import_module(name)
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\importlib\__init__.py&#34;, line 127, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\numexpr\__init__.py&#34;, line 24, in &lt;module&gt;
-    from numexpr.interpreter import MAX_THREADS, use_vml, __BLOCK_SIZE1__
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">AttributeError</span>                            Traceback (most recent call last)
-<span class="ansi-red-intense-fg ansi-bold">AttributeError</span>: _ARRAY_API not found</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>
-A module that was compiled using NumPy 1.x cannot be run in
-NumPy 2.0.2 as it may crash. To support both 1.x and 2.x
-versions of NumPy, modules must be compiled with NumPy 2.0.
-Some module may need to rebuild instead e.g. with &#39;pybind11&gt;=2.12&#39;.
-
-If you are a user of the module, the easiest solution will be to
-downgrade to &#39;numpy&lt;2&#39; or try to upgrade the affected module.
-We expect that some modules will need time to support NumPy 2.
-
-Traceback (most recent call last):  File &#34;C:\Users\Michael Encalada\anaconda3\lib\runpy.py&#34;, line 197, in _run_module_as_main
-    return _run_code(code, main_globals, None,
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\runpy.py&#34;, line 87, in _run_code
-    exec(code, run_globals)
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\ipykernel_launcher.py&#34;, line 17, in &lt;module&gt;
-    app.launch_new_instance()
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\traitlets\config\application.py&#34;, line 846, in launch_instance
-    app.start()
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\ipykernel\kernelapp.py&#34;, line 712, in start
-    self.io_loop.start()
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\tornado\platform\asyncio.py&#34;, line 199, in start
-    self.asyncio_loop.run_forever()
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\asyncio\base_events.py&#34;, line 601, in run_forever
-    self._run_once()
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\asyncio\base_events.py&#34;, line 1905, in _run_once
-    handle._run()
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\asyncio\events.py&#34;, line 80, in _run
-    self._context.run(self._callback, *self._args)
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\ipykernel\kernelbase.py&#34;, line 510, in dispatch_queue
-    await self.process_one()
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\ipykernel\kernelbase.py&#34;, line 499, in process_one
-    await dispatch(*args)
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\ipykernel\kernelbase.py&#34;, line 406, in dispatch_shell
-    await result
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\ipykernel\kernelbase.py&#34;, line 730, in execute_request
-    reply_content = await reply_content
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\ipykernel\ipkernel.py&#34;, line 390, in do_execute
-    res = shell.run_cell(code, store_history=store_history, silent=silent)
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\ipykernel\zmqshell.py&#34;, line 528, in run_cell
-    return super().run_cell(*args, **kwargs)
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\IPython\core\interactiveshell.py&#34;, line 2914, in run_cell
-    result = self._run_cell(
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\IPython\core\interactiveshell.py&#34;, line 2960, in _run_cell
-    return runner(coro)
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\IPython\core\async_helpers.py&#34;, line 78, in _pseudo_sync_runner
-    coro.send(None)
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\IPython\core\interactiveshell.py&#34;, line 3185, in run_cell_async
-    has_raised = await self.run_ast_nodes(code_ast.body, cell_name,
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\IPython\core\interactiveshell.py&#34;, line 3377, in run_ast_nodes
-    if (await self.run_code(code, result,  async_=asy)):
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\IPython\core\interactiveshell.py&#34;, line 3457, in run_code
-    exec(code_obj, self.user_global_ns, self.user_ns)
-  File &#34;C:\Users\Michael Encalada\AppData\Local\Temp\ipykernel_26504\1517683204.py&#34;, line 1, in &lt;module&gt;
-    import pandas as pd
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\pandas\__init__.py&#34;, line 80, in &lt;module&gt;
-    from pandas.core.api import (
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\pandas\core\api.py&#34;, line 28, in &lt;module&gt;
-    from pandas.core.arrays import Categorical
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\pandas\core\arrays\__init__.py&#34;, line 1, in &lt;module&gt;
-    from pandas.core.arrays.arrow import ArrowExtensionArray
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\pandas\core\arrays\arrow\__init__.py&#34;, line 5, in &lt;module&gt;
-    from pandas.core.arrays.arrow.array import ArrowExtensionArray
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\pandas\core\arrays\arrow\array.py&#34;, line 64, in &lt;module&gt;
-    from pandas.core.arrays.masked import BaseMaskedArray
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\pandas\core\arrays\masked.py&#34;, line 60, in &lt;module&gt;
-    from pandas.core import (
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\pandas\core\nanops.py&#34;, line 52, in &lt;module&gt;
-    bn = import_optional_dependency(&#34;bottleneck&#34;, errors=&#34;warn&#34;)
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\pandas\compat\_optional.py&#34;, line 135, in import_optional_dependency
-    module = importlib.import_module(name)
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\importlib\__init__.py&#34;, line 127, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File &#34;C:\Users\Michael Encalada\anaconda3\lib\site-packages\bottleneck\__init__.py&#34;, line 7, in &lt;module&gt;
-    from .move import (move_argmax, move_argmin, move_max, move_mean, move_median,
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">AttributeError</span>                            Traceback (most recent call last)
-<span class="ansi-red-intense-fg ansi-bold">AttributeError</span>: _ARRAY_API not found</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[10]:</div>
 
 
 
@@ -15168,73 +14927,6 @@ Traceback (most recent call last):  File &#34;C:\Users\Michael Encalada\anaconda
  &#39;VegaVita&#39;: 3.0}</pre>
 </div>
 
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#or</span>
-<span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="o">.</span><span class="n">from_dict</span><span class="p">(</span><span class="n">Results</span><span class="p">,</span><span class="n">orient</span><span class="o">=</span><span class="s1">&#39;index&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">T</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">&#39;Model Status&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">{:,}</span><span class="s1">&#39;</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">ImportError</span>                               Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp\ipykernel_26504\2647299300.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-fg">      1</span> <span class="ansi-red-intense-fg ansi-bold">#or</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 2</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>pd<span class="ansi-yellow-intense-fg ansi-bold">.</span>DataFrame<span class="ansi-yellow-intense-fg ansi-bold">.</span>from_dict<span class="ansi-yellow-intense-fg ansi-bold">(</span>Results<span class="ansi-yellow-intense-fg ansi-bold">,</span>orient<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-blue-intense-fg ansi-bold">&#39;index&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">.</span>T<span class="ansi-yellow-intense-fg ansi-bold">.</span>set_index<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#39;Model Status&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">.</span>style<span class="ansi-yellow-intense-fg ansi-bold">.</span>format<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#39;{:,}&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-
-<span class="ansi-green-intense-fg ansi-bold">~\anaconda3\lib\site-packages\pandas\core\frame.py</span> in <span class="ansi-cyan-fg">style</span><span class="ansi-blue-intense-fg ansi-bold">(self)</span>
-<span class="ansi-green-fg">   1440</span>         <span class="ansi-red-fg">`</span>Table Visualization <span class="ansi-yellow-intense-fg ansi-bold">&lt;</span><span class="ansi-yellow-intense-fg ansi-bold">.</span><span class="ansi-yellow-intense-fg ansi-bold">.</span><span class="ansi-yellow-intense-fg ansi-bold">/</span><span class="ansi-yellow-intense-fg ansi-bold">.</span><span class="ansi-yellow-intense-fg ansi-bold">.</span><span class="ansi-yellow-intense-fg ansi-bold">/</span>user_guide<span class="ansi-yellow-intense-fg ansi-bold">/</span>style<span class="ansi-yellow-intense-fg ansi-bold">.</span>ipynb<span class="ansi-yellow-intense-fg ansi-bold">&gt;</span><span class="ansi-red-fg">`</span>_ <span class="ansi-green-intense-fg ansi-bold">for</span> more examples<span class="ansi-yellow-intense-fg ansi-bold">.</span>
-<span class="ansi-green-fg">   1441</span>         &#34;&#34;&#34;
-<span class="ansi-green-intense-fg ansi-bold">-&gt; 1442</span><span class="ansi-yellow-intense-fg ansi-bold">         </span><span class="ansi-green-intense-fg ansi-bold">from</span> pandas<span class="ansi-yellow-intense-fg ansi-bold">.</span>io<span class="ansi-yellow-intense-fg ansi-bold">.</span>formats<span class="ansi-yellow-intense-fg ansi-bold">.</span>style <span class="ansi-green-intense-fg ansi-bold">import</span> Styler
-<span class="ansi-green-fg">   1443</span> 
-<span class="ansi-green-fg">   1444</span>         <span class="ansi-green-intense-fg ansi-bold">return</span> Styler<span class="ansi-yellow-intense-fg ansi-bold">(</span>self<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-
-<span class="ansi-green-intense-fg ansi-bold">~\anaconda3\lib\site-packages\pandas\io\formats\style.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-fg">     42</span> <span class="ansi-green-intense-fg ansi-bold">from</span> pandas<span class="ansi-yellow-intense-fg ansi-bold">.</span>io<span class="ansi-yellow-intense-fg ansi-bold">.</span>formats<span class="ansi-yellow-intense-fg ansi-bold">.</span>format <span class="ansi-green-intense-fg ansi-bold">import</span> save_to_buffer
-<span class="ansi-green-fg">     43</span> 
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 44</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>jinja2 <span class="ansi-yellow-intense-fg ansi-bold">=</span> import_optional_dependency<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#34;jinja2&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> extra<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-blue-intense-fg ansi-bold">&#34;DataFrame.style requires jinja2.&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     45</span> 
-<span class="ansi-green-fg">     46</span> from pandas.io.formats.style_render import (
-
-<span class="ansi-green-intense-fg ansi-bold">~\anaconda3\lib\site-packages\pandas\compat\_optional.py</span> in <span class="ansi-cyan-fg">import_optional_dependency</span><span class="ansi-blue-intense-fg ansi-bold">(name, extra, errors, min_version)</span>
-<span class="ansi-green-fg">    162</span>                 <span class="ansi-green-intense-fg ansi-bold">return</span> <span class="ansi-green-intense-fg ansi-bold">None</span>
-<span class="ansi-green-fg">    163</span>             <span class="ansi-green-intense-fg ansi-bold">elif</span> errors <span class="ansi-yellow-intense-fg ansi-bold">==</span> <span class="ansi-blue-intense-fg ansi-bold">&#34;raise&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 164</span><span class="ansi-yellow-intense-fg ansi-bold">                 </span><span class="ansi-green-intense-fg ansi-bold">raise</span> ImportError<span class="ansi-yellow-intense-fg ansi-bold">(</span>msg<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    165</span>             <span class="ansi-green-intense-fg ansi-bold">else</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">    166</span>                 <span class="ansi-green-intense-fg ansi-bold">return</span> <span class="ansi-green-intense-fg ansi-bold">None</span>
-
-<span class="ansi-red-intense-fg ansi-bold">ImportError</span>: Pandas requires version &#39;3.1.2&#39; or newer of &#39;jinja2&#39; (version &#39;2.11.3&#39; currently installed).</pre>
-</div>
 </div>
 
 </div>
@@ -15311,17 +15003,35 @@ Traceback (most recent call last):  File &#34;C:\Users\Michael Encalada\anaconda
 </div>
 </div>
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[58]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#%%html</span>
+
+<span class="c1">#&lt;iframe src=&quot;https://docs.google.com/spreadsheets/d/1fcnfcmDSSisiYiu-FpnYT5cKBQYqrjnE1DkigsHcM8E/edit?gid=659603613#gid=659603613&quot; width=&quot;600&quot; height=&quot;300&quot; &gt;&lt;/iframe&gt;</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[57]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%html</span>
 
-<span class="p">&lt;</span><span class="nt">iframe</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://docs.google.com/spreadsheets/d/1fcnfcmDSSisiYiu-FpnYT5cKBQYqrjnE1DkigsHcM8E/edit?gid=659603613#gid=659603613&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;600&quot;</span> <span class="na">height</span><span class="o">=</span><span class="s">&quot;300&quot;</span> <span class="p">&gt;&lt;/</span><span class="nt">iframe</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">iframe</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://docs.google.com/spreadsheets/d/1hwWuzUFCzs_YFoV27HWYzSMLgkbXCpIc/edit?gid=113328570#gid=113328570&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;600&quot;</span> <span class="na">height</span><span class="o">=</span><span class="s">&quot;300&quot;</span> <span class="p">&gt;&lt;/</span><span class="nt">iframe</span><span class="p">&gt;</span>
 </pre></div>
 
      </div>
@@ -15345,7 +15055,7 @@ Traceback (most recent call last):  File &#34;C:\Users\Michael Encalada\anaconda
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
 
-<iframe src="https://docs.google.com/spreadsheets/d/1fcnfcmDSSisiYiu-FpnYT5cKBQYqrjnE1DkigsHcM8E/edit?gid=659603613#gid=659603613" width="600" height="300" ></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/1hwWuzUFCzs_YFoV27HWYzSMLgkbXCpIc/edit?gid=113328570#gid=113328570" width="600" height="300" ></iframe>
 
 </div>
 
@@ -15374,10 +15084,10 @@ Traceback (most recent call last):  File &#34;C:\Users\Michael Encalada\anaconda
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[59]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">linkGoogle</span><span class="o">=</span><span class="s1">&#39;https://docs.google.com/spreadsheets/d/e/2PACX-1vRGzlHwDqOoeb337eloDICBNAUUVdKz47f2drs80oAB8Xhba900zF4dNFBhIOjOyg/pub?output=xlsx&#39;</span><span class="c1"># the link to the data</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#linkGoogle=&#39;https://docs.google.com/spreadsheets/d/e/2PACX-1vRGzlHwDqOoeb337eloDICBNAUUVdKz47f2drs80oAB8Xhba900zF4dNFBhIOjOyg/pub?output=xlsx&#39;# the link to the data</span>
 </pre></div>
 
      </div>
@@ -15390,15 +15100,19 @@ Traceback (most recent call last):  File &#34;C:\Users\Michael Encalada\anaconda
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[67]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 
-<span class="n">pairwise_cost</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="n">linkGoogle</span><span class="p">,</span><span class="n">sheet_name</span><span class="o">=</span><span class="s1">&#39;cost of living&#39;</span><span class="p">,</span> <span class="n">index_col</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
-<span class="n">pairwise_languaje</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="n">linkGoogle</span><span class="p">,</span><span class="n">sheet_name</span><span class="o">=</span><span class="s1">&#39;languaje difficulty&#39;</span><span class="p">,</span> <span class="n">index_col</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
-<span class="n">pairwise_job</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="n">linkGoogle</span><span class="p">,</span><span class="n">sheet_name</span><span class="o">=</span><span class="s1">&#39;possibilities to get a job&#39;</span><span class="p">,</span> <span class="n">index_col</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
-<span class="n">pairwise_criterio</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="n">linkGoogle</span><span class="p">,</span><span class="n">sheet_name</span><span class="o">=</span><span class="s1">&#39;criterios&#39;</span><span class="p">,</span> <span class="n">index_col</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="c1"># Enlace directo de Google Sheets en formato .xlsx</span>
+<span class="n">linkGoogle</span> <span class="o">=</span> <span class="s1">&#39;https://docs.google.com/spreadsheets/d/1hwWuzUFCzs_YFoV27HWYzSMLgkbXCpIc/export?format=xlsx&amp;id=1hwWuzUFCzs_YFoV27HWYzSMLgkbXCpIc&#39;</span>
+
+<span class="c1"># Leer las diferentes hojas</span>
+<span class="n">pairwise_cost</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="n">linkGoogle</span><span class="p">,</span> <span class="n">sheet_name</span><span class="o">=</span><span class="s1">&#39;cost of living&#39;</span><span class="p">,</span> <span class="n">index_col</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">engine</span><span class="o">=</span><span class="s1">&#39;openpyxl&#39;</span><span class="p">)</span>
+<span class="n">pairwise_language</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="n">linkGoogle</span><span class="p">,</span> <span class="n">sheet_name</span><span class="o">=</span><span class="s1">&#39;languaje difficulty&#39;</span><span class="p">,</span> <span class="n">index_col</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">engine</span><span class="o">=</span><span class="s1">&#39;openpyxl&#39;</span><span class="p">)</span>
+<span class="n">pairwise_job</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="n">linkGoogle</span><span class="p">,</span> <span class="n">sheet_name</span><span class="o">=</span><span class="s1">&#39;possibilities to get a job&#39;</span><span class="p">,</span> <span class="n">index_col</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">engine</span><span class="o">=</span><span class="s1">&#39;openpyxl&#39;</span><span class="p">)</span>
+<span class="n">pairwise_criterio</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="n">linkGoogle</span><span class="p">,</span><span class="n">sheet_name</span><span class="o">=</span><span class="s1">&#39;criterios&#39;</span><span class="p">,</span> <span class="n">index_col</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">engine</span><span class="o">=</span><span class="s1">&#39;openpyxl&#39;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -15411,7 +15125,7 @@ Traceback (most recent call last):  File &#34;C:\Users\Michael Encalada\anaconda
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[68]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#check</span>
@@ -15433,7 +15147,7 @@ Traceback (most recent call last):  File &#34;C:\Users\Michael Encalada\anaconda
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[16]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[68]:</div>
 
 
 
@@ -15496,7 +15210,7 @@ Traceback (most recent call last):  File &#34;C:\Users\Michael Encalada\anaconda
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[69]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
@@ -15522,7 +15236,7 @@ Traceback (most recent call last):  File &#34;C:\Users\Michael Encalada\anaconda
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[17]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[69]:</div>
 
 
 
@@ -15542,7 +15256,7 @@ Traceback (most recent call last):  File &#34;C:\Users\Michael Encalada\anaconda
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[70]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">cost_comparisons</span> <span class="o">=</span><span class="p">{(</span><span class="n">e</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="n">e</span><span class="p">[</span><span class="mi">1</span><span class="p">]):</span><span class="n">e</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="s1">&#39;weight&#39;</span><span class="p">]</span> <span class="k">for</span> <span class="n">e</span> <span class="ow">in</span> <span class="n">cost</span><span class="o">.</span><span class="n">edges</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span> <span class="k">if</span> <span class="n">e</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">!=</span> <span class="n">e</span><span class="p">[</span><span class="mi">1</span><span class="p">]}</span>
@@ -15564,7 +15278,7 @@ Traceback (most recent call last):  File &#34;C:\Users\Michael Encalada\anaconda
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[18]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[70]:</div>
 
 
 
@@ -15595,7 +15309,7 @@ Traceback (most recent call last):  File &#34;C:\Users\Michael Encalada\anaconda
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[71]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">language</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">from_pandas_adjacency</span><span class="p">(</span><span class="n">pairwise_languaje</span><span class="p">,</span><span class="n">create_using</span><span class="o">=</span><span class="n">nx</span><span class="o">.</span><span class="n">MultiDiGraph</span><span class="p">())</span>
@@ -15615,7 +15329,7 @@ Traceback (most recent call last):  File &#34;C:\Users\Michael Encalada\anaconda
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[72]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="p">[</span><span class="n">cost_comparisons</span><span class="p">,</span> <span class="n">language_comparisons</span><span class="p">,</span><span class="n">job_comparisons</span><span class="p">]</span>
@@ -15636,7 +15350,7 @@ Traceback (most recent call last):  File &#34;C:\Users\Michael Encalada\anaconda
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[20]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[72]:</div>
 
 
 
@@ -15691,7 +15405,7 @@ Traceback (most recent call last):  File &#34;C:\Users\Michael Encalada\anaconda
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[73]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">G_CRIT</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">from_pandas_adjacency</span><span class="p">(</span><span class="n">pairwise_criterio</span><span class="p">,</span><span class="n">create_using</span><span class="o">=</span><span class="n">nx</span><span class="o">.</span><span class="n">MultiDiGraph</span><span class="p">())</span>
@@ -15714,16 +15428,16 @@ Traceback (most recent call last):  File &#34;C:\Users\Michael Encalada\anaconda
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[21]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[73]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
 <pre>{(&#39;cost&#39;, &#39;language&#39;): 5.0,
- (&#39;cost&#39;, &#39;job&#39;): 0.1111111111,
+ (&#39;cost&#39;, &#39;job&#39;): 0.1111111111111111,
  (&#39;language&#39;, &#39;cost&#39;): 0.2,
- (&#39;language&#39;, &#39;job&#39;): 0.1428571429,
+ (&#39;language&#39;, &#39;job&#39;): 0.14285714285714285,
  (&#39;job&#39;, &#39;cost&#39;): 9.0,
  (&#39;job&#39;, &#39;language&#39;): 7.0}</pre>
 </div>
@@ -15739,7 +15453,7 @@ Traceback (most recent call last):  File &#34;C:\Users\Michael Encalada\anaconda
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[45]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[74]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>pip install ahpy
@@ -15764,12 +15478,9 @@ Traceback (most recent call last):  File &#34;C:\Users\Michael Encalada\anaconda
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Collecting ahpy
-  Using cached ahpy-2.0-py3-none-any.whl (21 kB)
-Requirement already satisfied: scipy in c:\users\michael encalada\anaconda3\lib\site-packages (from ahpy) (1.9.1)
+<pre>Requirement already satisfied: ahpy in c:\users\michael encalada\anaconda3\lib\site-packages (2.0)
 Requirement already satisfied: numpy in c:\users\michael encalada\anaconda3\lib\site-packages (from ahpy) (1.24.4)
-Installing collected packages: ahpy
-Successfully installed ahpy-2.0
+Requirement already satisfied: scipy in c:\users\michael encalada\anaconda3\lib\site-packages (from ahpy) (1.9.1)
 </pre>
 </div>
 </div>
@@ -15778,12 +15489,12 @@ Successfully installed ahpy-2.0
 
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[46]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[75]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">ahpy</span>
@@ -15794,92 +15505,17 @@ Successfully installed ahpy-2.0
 </div>
 </div>
 
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">ImportError</span>                               Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp\ipykernel_26504\504275297.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span><span class="ansi-green-intense-fg ansi-bold">import</span> ahpy
-
-<span class="ansi-green-intense-fg ansi-bold">~\anaconda3\lib\site-packages\ahpy\__init__.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-fg">      1</span> <span class="ansi-green-intense-fg ansi-bold">from</span> <span class="ansi-yellow-intense-fg ansi-bold">.</span>__version__ <span class="ansi-green-intense-fg ansi-bold">import</span> __version__
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 2</span><span class="ansi-yellow-intense-fg ansi-bold"> </span><span class="ansi-green-intense-fg ansi-bold">from</span> <span class="ansi-yellow-intense-fg ansi-bold">.</span>ahpy <span class="ansi-green-intense-fg ansi-bold">import</span> Compare
-<span class="ansi-green-fg">      3</span> <span class="ansi-green-intense-fg ansi-bold">from</span> <span class="ansi-yellow-intense-fg ansi-bold">.</span>ahpy <span class="ansi-green-intense-fg ansi-bold">import</span> Compose
-
-<span class="ansi-green-intense-fg ansi-bold">~\anaconda3\lib\site-packages\ahpy\ahpy.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-fg">      6</span> 
-<span class="ansi-green-fg">      7</span> <span class="ansi-green-intense-fg ansi-bold">import</span> numpy <span class="ansi-green-intense-fg ansi-bold">as</span> np
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 8</span><span class="ansi-yellow-intense-fg ansi-bold"> </span><span class="ansi-green-intense-fg ansi-bold">import</span> scipy<span class="ansi-yellow-intense-fg ansi-bold">.</span>optimize <span class="ansi-green-intense-fg ansi-bold">as</span> spo
-<span class="ansi-green-fg">      9</span> 
-<span class="ansi-green-fg">     10</span> <span class="ansi-green-intense-fg ansi-bold">import</span> ahpy
-
-<span class="ansi-green-intense-fg ansi-bold">~\anaconda3\lib\site-packages\scipy\__init__.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-fg">     88</span>     <span class="ansi-green-intense-fg ansi-bold">if</span> _key<span class="ansi-yellow-intense-fg ansi-bold">.</span>startswith<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#39;_&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">     89</span>         <span class="ansi-green-intense-fg ansi-bold">continue</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 90</span><span class="ansi-yellow-intense-fg ansi-bold">     </span>_fun <span class="ansi-yellow-intense-fg ansi-bold">=</span> getattr<span class="ansi-yellow-intense-fg ansi-bold">(</span>np<span class="ansi-yellow-intense-fg ansi-bold">,</span> _key<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     91</span>     <span class="ansi-green-intense-fg ansi-bold">if</span> isinstance<span class="ansi-yellow-intense-fg ansi-bold">(</span>_fun<span class="ansi-yellow-intense-fg ansi-bold">,</span> _types<span class="ansi-yellow-intense-fg ansi-bold">.</span>ModuleType<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">     92</span>         <span class="ansi-green-intense-fg ansi-bold">continue</span>
-
-<span class="ansi-green-intense-fg ansi-bold">~\anaconda3\lib\site-packages\numpy\__init__.py</span> in <span class="ansi-cyan-fg">__getattr__</span><span class="ansi-blue-intense-fg ansi-bold">(attr)</span>
-<span class="ansi-green-fg">    368</span>             x <span class="ansi-yellow-intense-fg ansi-bold">=</span> linspace<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-cyan-intense-fg ansi-bold">0</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-cyan-intense-fg ansi-bold">2</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-cyan-intense-fg ansi-bold">5</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    369</span>             y <span class="ansi-yellow-intense-fg ansi-bold">=</span> polyval<span class="ansi-yellow-intense-fg ansi-bold">(</span>c<span class="ansi-yellow-intense-fg ansi-bold">,</span> x<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 370</span><span class="ansi-yellow-intense-fg ansi-bold">             </span>_ <span class="ansi-yellow-intense-fg ansi-bold">=</span> polyfit<span class="ansi-yellow-intense-fg ansi-bold">(</span>x<span class="ansi-yellow-intense-fg ansi-bold">,</span> y<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-cyan-intense-fg ansi-bold">2</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> cov<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-green-intense-fg ansi-bold">True</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    371</span>         <span class="ansi-green-intense-fg ansi-bold">except</span> ValueError<span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">    372</span>             <span class="ansi-green-intense-fg ansi-bold">pass</span>
-
-<span class="ansi-green-intense-fg ansi-bold">~\anaconda3\lib\site-packages\numpy\polynomial\__init__.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-fg">    114</span> 
-<span class="ansi-green-fg">    115</span> &#34;&#34;&#34;
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 116</span><span class="ansi-yellow-intense-fg ansi-bold"> </span><span class="ansi-green-intense-fg ansi-bold">from</span> <span class="ansi-yellow-intense-fg ansi-bold">.</span>polynomial <span class="ansi-green-intense-fg ansi-bold">import</span> Polynomial
-<span class="ansi-green-fg">    117</span> <span class="ansi-green-intense-fg ansi-bold">from</span> <span class="ansi-yellow-intense-fg ansi-bold">.</span>chebyshev <span class="ansi-green-intense-fg ansi-bold">import</span> Chebyshev
-<span class="ansi-green-fg">    118</span> <span class="ansi-green-intense-fg ansi-bold">from</span> <span class="ansi-yellow-intense-fg ansi-bold">.</span>legendre <span class="ansi-green-intense-fg ansi-bold">import</span> Legendre
-
-<span class="ansi-green-intense-fg ansi-bold">~\anaconda3\lib\site-packages\numpy\polynomial\polynomial.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-fg">     82</span> <span class="ansi-green-intense-fg ansi-bold">import</span> numpy <span class="ansi-green-intense-fg ansi-bold">as</span> np
-<span class="ansi-green-fg">     83</span> <span class="ansi-green-intense-fg ansi-bold">import</span> numpy<span class="ansi-yellow-intense-fg ansi-bold">.</span>linalg <span class="ansi-green-intense-fg ansi-bold">as</span> la
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 84</span><span class="ansi-yellow-intense-fg ansi-bold"> </span><span class="ansi-green-intense-fg ansi-bold">from</span> numpy<span class="ansi-yellow-intense-fg ansi-bold">.</span>core<span class="ansi-yellow-intense-fg ansi-bold">.</span>multiarray <span class="ansi-green-intense-fg ansi-bold">import</span> normalize_axis_index
-<span class="ansi-green-fg">     85</span> 
-<span class="ansi-green-fg">     86</span> <span class="ansi-green-intense-fg ansi-bold">from</span> <span class="ansi-yellow-intense-fg ansi-bold">.</span> <span class="ansi-green-intense-fg ansi-bold">import</span> polyutils <span class="ansi-green-intense-fg ansi-bold">as</span> pu
-
-<span class="ansi-green-intense-fg ansi-bold">~\anaconda3\lib\site-packages\numpy\core\multiarray.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-fg">     14</span> <span class="ansi-red-intense-fg ansi-bold"># do not change them. issue gh-15518</span>
-<span class="ansi-green-fg">     15</span> <span class="ansi-red-intense-fg ansi-bold"># _get_ndarray_c_version is semi-public, on purpose not added to __all__</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 16</span><span class="ansi-yellow-intense-fg ansi-bold"> from ._multiarray_umath import (
-</span><span class="ansi-green-fg">     17</span>     fastCopyAndTranspose<span class="ansi-yellow-intense-fg ansi-bold">,</span> _flagdict<span class="ansi-yellow-intense-fg ansi-bold">,</span> from_dlpack<span class="ansi-yellow-intense-fg ansi-bold">,</span> _insert<span class="ansi-yellow-intense-fg ansi-bold">,</span> _reconstruct<span class="ansi-yellow-intense-fg ansi-bold">,</span>
-<span class="ansi-green-fg">     18</span>     _vec_string<span class="ansi-yellow-intense-fg ansi-bold">,</span> _ARRAY_API<span class="ansi-yellow-intense-fg ansi-bold">,</span> _monotonicity<span class="ansi-yellow-intense-fg ansi-bold">,</span> _get_ndarray_c_version<span class="ansi-yellow-intense-fg ansi-bold">,</span>
-
-<span class="ansi-red-intense-fg ansi-bold">ImportError</span>: cannot import name &#39;fastCopyAndTranspose&#39; from &#39;numpy.core._multiarray_umath&#39; (C:\Users\Michael Encalada\anaconda3\lib\site-packages\numpy\core\_multiarray_umath.py)</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[47]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[76]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cost_living</span> <span class="n">ahpy</span><span class="o">.</span> <span class="n">Compare</span><span class="p">(</span><span class="s1">&#39;cost&#39;</span><span class="p">,</span> <span class="n">costs_comparisons</span><span class="p">,</span> <span class="n">precision</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">random_index</span><span class="o">=</span><span class="s1">&#39;saaty&#39;</span><span class="p">)</span>
-<span class="n">language_difficulty</span> <span class="n">ahpy</span><span class="o">.</span><span class="n">Compare</span><span class="p">(</span><span class="s1">&#39;language&#39;</span><span class="p">,</span> <span class="n">language_comparisons</span><span class="p">,</span> <span class="n">precision</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">random_index</span><span class="o">=</span><span class="s1">&#39;saaty&#39;</span><span class="p">)</span>
-<span class="n">job_opportunities</span> <span class="n">ahpy</span><span class="o">.</span><span class="n">Compare</span><span class="p">(</span><span class="s1">&#39;job&#39;</span><span class="p">,</span> <span class="n">job_comparisons</span><span class="p">,</span> <span class="n">precision</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">random_index</span><span class="o">=</span><span class="s1">&#39;saaty&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cost_living</span> <span class="o">=</span> <span class="n">ahpy</span><span class="o">.</span><span class="n">Compare</span><span class="p">(</span><span class="s1">&#39;cost&#39;</span><span class="p">,</span> <span class="n">cost_comparisons</span><span class="p">,</span> <span class="n">precision</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">random_index</span><span class="o">=</span><span class="s1">&#39;saaty&#39;</span><span class="p">)</span>
+<span class="n">language_difficulty</span> <span class="o">=</span> <span class="n">ahpy</span><span class="o">.</span><span class="n">Compare</span><span class="p">(</span><span class="s1">&#39;language&#39;</span><span class="p">,</span> <span class="n">language_comparisons</span><span class="p">,</span> <span class="n">precision</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">random_index</span><span class="o">=</span><span class="s1">&#39;saaty&#39;</span><span class="p">)</span>
+<span class="n">job_opportunities</span> <span class="o">=</span> <span class="n">ahpy</span><span class="o">.</span><span class="n">Compare</span><span class="p">(</span><span class="s1">&#39;job&#39;</span><span class="p">,</span> <span class="n">job_comparisons</span><span class="p">,</span> <span class="n">precision</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">random_index</span><span class="o">=</span><span class="s1">&#39;saaty&#39;</span><span class="p">)</span>
 <span class="n">criteria</span> <span class="o">=</span> <span class="n">ahpy</span><span class="o">.</span><span class="n">Compare</span><span class="p">(</span><span class="s1">&#39;criteria&#39;</span><span class="p">,</span> <span class="n">criteria_comparisons</span><span class="p">,</span> <span class="n">precision</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">random_index</span><span class="o">=</span><span class="s1">&#39;saaty&#39;</span><span class="p">)</span>
 </pre></div>
 
@@ -15888,39 +15524,12 @@ Successfully installed ahpy-2.0
 </div>
 </div>
 
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>
-<span class="ansi-cyan-intense-fg ansi-bold">  File </span><span class="ansi-green-intense-fg ansi-bold">&#34;C:\Users\Michael Encalada\AppData\Local\Temp\ipykernel_26504\4179228761.py&#34;</span><span class="ansi-cyan-intense-fg ansi-bold">, line </span><span class="ansi-green-intense-fg ansi-bold">1</span>
-<span class="ansi-yellow-intense-fg ansi-bold">    cost_living ahpy. Compare(&#39;cost&#39;, costs_comparisons, precision=3, random_index=&#39;saaty&#39;)</span>
-<span class="ansi-white-intense-fg ansi-bold">                ^</span>
-<span class="ansi-red-intense-fg ansi-bold">SyntaxError</span><span class="ansi-red-intense-fg ansi-bold">:</span> invalid syntax
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[48]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[77]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">criteria</span><span class="o">.</span><span class="n">add_children</span><span class="p">([</span><span class="n">cost_living</span><span class="p">,</span> <span class="n">language_difficulty</span><span class="p">,</span> <span class="n">job_opportunities</span><span class="p">])</span>
@@ -15931,40 +15540,12 @@ Successfully installed ahpy-2.0
 </div>
 </div>
 
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp\ipykernel_26504\1003332034.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>criteria<span class="ansi-yellow-intense-fg ansi-bold">.</span>add_children<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">[</span>cost_living<span class="ansi-yellow-intense-fg ansi-bold">,</span> language_difficulty<span class="ansi-yellow-intense-fg ansi-bold">,</span> job_opportunities<span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-
-<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;criteria&#39; is not defined</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[49]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[78]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">criteria</span><span class="o">.</span><span class="n">target_weights</span><span class="p">)</span>
@@ -15988,14 +15569,9 @@ Successfully installed ahpy-2.0
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp\ipykernel_26504\1536676139.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>print<span class="ansi-yellow-intense-fg ansi-bold">(</span>criteria<span class="ansi-yellow-intense-fg ansi-bold">.</span>target_weights<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-
-<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;criteria&#39; is not defined</pre>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>{&#39;germany&#39;: 0.473, &#39;spain&#39;: 0.24, &#39;chile&#39;: 0.148, &#39;uk&#39;: 0.138}
+</pre>
 </div>
 </div>
 
@@ -16008,7 +15584,7 @@ Successfully installed ahpy-2.0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[50]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[79]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="p">[(</span><span class="n">val</span><span class="o">.</span><span class="n">name</span><span class="p">,</span><span class="n">val</span><span class="o">.</span><span class="n">consistency_ratio</span><span class="p">)</span> <span class="k">for</span> <span class="n">val</span> <span class="ow">in</span> <span class="p">[</span><span class="n">cost_living</span><span class="p">,</span> <span class="n">language_difficulty</span><span class="p">,</span> <span class="n">job_opportunities</span><span class="p">,</span> <span class="n">criteria</span><span class="p">]]</span>
@@ -16029,38 +15605,19 @@ Successfully installed ahpy-2.0
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[79]:</div>
 
 
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp\ipykernel_26504\1795993251.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span><span class="ansi-yellow-intense-fg ansi-bold"> </span><span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-yellow-intense-fg ansi-bold">(</span>val<span class="ansi-yellow-intense-fg ansi-bold">.</span>name<span class="ansi-yellow-intense-fg ansi-bold">,</span>val<span class="ansi-yellow-intense-fg ansi-bold">.</span>consistency_ratio<span class="ansi-yellow-intense-fg ansi-bold">)</span> <span class="ansi-green-intense-fg ansi-bold">for</span> val <span class="ansi-green-intense-fg ansi-bold">in</span> <span class="ansi-yellow-intense-fg ansi-bold">[</span>cost_living<span class="ansi-yellow-intense-fg ansi-bold">,</span> language_difficulty<span class="ansi-yellow-intense-fg ansi-bold">,</span> job_opportunities<span class="ansi-yellow-intense-fg ansi-bold">,</span> criteria<span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">]</span>
 
-<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;cost_living&#39; is not defined</pre>
-</div>
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>[(&#39;cost&#39;, 0.052), (&#39;language&#39;, 0.127), (&#39;job&#39;, 0.155), (&#39;criteria&#39;, 0.382)]</pre>
 </div>
 
 </div>
 
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
 </div>
 
 </div>
@@ -16079,7 +15636,7 @@ Successfully installed ahpy-2.0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[80]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
@@ -16108,7 +15665,7 @@ Successfully installed ahpy-2.0
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>C:\Users\Michael Encalada\Documents\GitHub\Magallanes\week12_optimization
-[&#39;.git&#39;, &#39;.gitignore&#39;, &#39;.ipynb_checkpoints&#39;, &#39;C009.sav&#39;, &#39;C051.sav&#39;, &#39;Ejercicios.ipynb&#39;, &#39;Ejercicio_1.ipynb&#39;, &#39;Ejercicio_3.ipynb&#39;, &#39;LICENSE&#39;, &#39;municipalidades.xlsx&#39;, &#39;Optimization tarea.xlsx&#39;, &#39;README.md&#39;]
+[&#39;.git&#39;, &#39;.gitignore&#39;, &#39;.ipynb_checkpoints&#39;, &#39;Ejercicios.html&#39;, &#39;Ejercicios.ipynb&#39;, &#39;LICENSE&#39;, &#39;municipalidades.xlsx&#39;, &#39;Optimization tarea.xlsx&#39;, &#39;README.md&#39;]
 </pre>
 </div>
 </div>
@@ -16122,7 +15679,7 @@ Successfully installed ahpy-2.0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[81]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -16140,7 +15697,7 @@ Successfully installed ahpy-2.0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[82]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>  <span class="c1"># Muestra las primeras filas del DataFrame</span>
@@ -16161,7 +15718,7 @@ Successfully installed ahpy-2.0
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[29]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[82]:</div>
 
 
 
@@ -16266,7 +15823,7 @@ Successfully installed ahpy-2.0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[31]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[83]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Calcular los ratios con los nombres de columna adecuados</span>
@@ -16321,7 +15878,7 @@ Successfully installed ahpy-2.0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[32]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[84]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>pip install altair
@@ -16346,27 +15903,16 @@ Successfully installed ahpy-2.0
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Collecting altair
-  Downloading altair-5.4.1-py3-none-any.whl (658 kB)
-     -------------------------------------- 658.1/658.1 kB 2.4 MB/s eta 0:00:00
-Collecting typing-extensions&gt;=4.10.0
-  Using cached typing_extensions-4.12.2-py3-none-any.whl (37 kB)
-Collecting narwhals&gt;=1.5.2
-  Downloading narwhals-1.13.3-py3-none-any.whl (201 kB)
-     -------------------------------------- 201.1/201.1 kB 2.0 MB/s eta 0:00:00
-Requirement already satisfied: packaging in c:\users\michael encalada\anaconda3\lib\site-packages (from altair) (21.3)
+<pre>Requirement already satisfied: altair in c:\users\michael encalada\anaconda3\lib\site-packages (5.4.1)
 Requirement already satisfied: jsonschema&gt;=3.0 in c:\users\michael encalada\anaconda3\lib\site-packages (from altair) (4.16.0)
-Requirement already satisfied: jinja2 in c:\users\michael encalada\anaconda3\lib\site-packages (from altair) (2.11.3)
-Requirement already satisfied: pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,&gt;=0.14.0 in c:\users\michael encalada\anaconda3\lib\site-packages (from jsonschema&gt;=3.0-&gt;altair) (0.18.0)
+Requirement already satisfied: narwhals&gt;=1.5.2 in c:\users\michael encalada\anaconda3\lib\site-packages (from altair) (1.13.3)
+Requirement already satisfied: packaging in c:\users\michael encalada\anaconda3\lib\site-packages (from altair) (21.3)
+Requirement already satisfied: typing-extensions&gt;=4.10.0 in c:\users\michael encalada\anaconda3\lib\site-packages (from altair) (4.12.2)
+Requirement already satisfied: jinja2 in c:\users\michael encalada\anaconda3\lib\site-packages (from altair) (3.1.2)
 Requirement already satisfied: attrs&gt;=17.4.0 in c:\users\michael encalada\anaconda3\lib\site-packages (from jsonschema&gt;=3.0-&gt;altair) (21.4.0)
-Requirement already satisfied: MarkupSafe&gt;=0.23 in c:\users\michael encalada\anaconda3\lib\site-packages (from jinja2-&gt;altair) (2.0.1)
+Requirement already satisfied: pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,&gt;=0.14.0 in c:\users\michael encalada\anaconda3\lib\site-packages (from jsonschema&gt;=3.0-&gt;altair) (0.18.0)
+Requirement already satisfied: MarkupSafe&gt;=2.0 in c:\users\michael encalada\anaconda3\lib\site-packages (from jinja2-&gt;altair) (3.0.2)
 Requirement already satisfied: pyparsing!=3.0.5,&gt;=2.0.2 in c:\users\michael encalada\anaconda3\lib\site-packages (from packaging-&gt;altair) (3.0.9)
-Installing collected packages: typing-extensions, narwhals, altair
-  Attempting uninstall: typing-extensions
-    Found existing installation: typing_extensions 4.3.0
-    Uninstalling typing_extensions-4.3.0:
-      Successfully uninstalled typing_extensions-4.3.0
-Successfully installed altair-5.4.1 narwhals-1.13.3 typing-extensions-4.12.2
 </pre>
 </div>
 </div>
@@ -16380,7 +15926,7 @@ Successfully installed altair-5.4.1 narwhals-1.13.3 typing-extensions-4.12.2
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[33]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[85]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">altair</span> <span class="k">as</span> <span class="nn">alt</span>
@@ -16416,30 +15962,30 @@ Successfully installed altair-5.4.1 narwhals-1.13.3 typing-extensions-4.12.2
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[33]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[85]:</div>
 
 
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
 
 <style>
-  #altair-viz-c758e83ada6b4a71b739bae814c04883.vega-embed {
+  #altair-viz-838a01484b894567b748ee88a994da6b.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-c758e83ada6b4a71b739bae814c04883.vega-embed details,
-  #altair-viz-c758e83ada6b4a71b739bae814c04883.vega-embed details summary {
+  #altair-viz-838a01484b894567b748ee88a994da6b.vega-embed details,
+  #altair-viz-838a01484b894567b748ee88a994da6b.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-c758e83ada6b4a71b739bae814c04883"></div>
+<div id="altair-viz-838a01484b894567b748ee88a994da6b"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-c758e83ada6b4a71b739bae814c04883") {
-      outputDiv = document.getElementById("altair-viz-c758e83ada6b4a71b739bae814c04883");
+    if (outputDiv.id !== "altair-viz-838a01484b894567b748ee88a994da6b") {
+      outputDiv = document.getElementById("altair-viz-838a01484b894567b748ee88a994da6b");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
@@ -16485,7 +16031,7 @@ Successfully installed altair-5.4.1 narwhals-1.13.3 typing-extensions-4.12.2
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "layer": [{"mark": {"type": "point"}, "encoding": {"x": {"field": "rate1", "title": "Beneficiarios vs Trabajadores", "type": "quantitative"}, "y": {"field": "rate2", "title": "Presupuesto ejecutado vs Ingresos, per c\u00e1pita", "type": "quantitative"}}}, {"mark": {"type": "text", "align": "right", "baseline": "middle", "dx": -7}, "encoding": {"text": {"field": "muni", "type": "nominal"}, "x": {"field": "rate1", "title": "Beneficiarios vs Trabajadores", "type": "quantitative"}, "y": {"field": "rate2", "title": "Presupuesto ejecutado vs Ingresos, per c\u00e1pita", "type": "quantitative"}}, "name": "view_1"}], "data": {"name": "data-77a0d4a246c1b066f33cc48d87ea379c"}, "params": [{"name": "param_1", "select": {"type": "interval", "encodings": ["x", "y"]}, "bind": "scales", "views": ["view_1"]}], "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-77a0d4a246c1b066f33cc48d87ea379c": [{"muni": "ANCON", "Ingreso per capita": 207.85775849432736, "% Presupuesto ejecutado": 68.46, "trabajadores": 215, "n\u00b0 beneficiarios": 50, "beneficiarios%": 0.030395136778115502, "centros": 1, "a\u00f1os implementaci\u00f3n": 10, "rate1": 0.23255813953488372, "rate2": 0.3293598492349196}, {"muni": "ATE", "Ingreso per capita": 289.3229597161344, "% Presupuesto ejecutado": 77.1, "trabajadores": 1627, "n\u00b0 beneficiarios": 420, "beneficiarios%": 0.021510883482714467, "centros": 12, "a\u00f1os implementaci\u00f3n": 5, "rate1": 0.2581438229870928, "rate2": 0.26648420877363377}, {"muni": "BARRANCO", "Ingreso per capita": 292.15731666436614, "% Presupuesto ejecutado": 75.9, "trabajadores": 521, "n\u00b0 beneficiarios": 45, "beneficiarios%": 0.007887817703768623, "centros": 1, "a\u00f1os implementaci\u00f3n": 0, "rate1": 0.08637236084452975, "rate2": 0.25979154267491733}, {"muni": "CHACLACAYO", "Ingreso per capita": 213.44109885016223, "% Presupuesto ejecutado": 80.92, "trabajadores": 189, "n\u00b0 beneficiarios": 180, "beneficiarios%": 0.05298793052693553, "centros": 4, "a\u00f1os implementaci\u00f3n": 11, "rate1": 0.9523809523809523, "rate2": 0.3791209867074693}, {"muni": "CHORRILLOS", "Ingreso per capita": 264.97751142052874, "% Presupuesto ejecutado": 83.82000000000001, "trabajadores": 345, "n\u00b0 beneficiarios": 361, "beneficiarios%": 0.021194152527446723, "centros": 3, "a\u00f1os implementaci\u00f3n": 13, "rate1": 1.046376811594203, "rate2": 0.3163287312596679}, {"muni": "LOS OLIVOS (LAS PALMERAS)", "Ingreso per capita": 259.323724282708, "% Presupuesto ejecutado": 79.9, "trabajadores": 1338, "n\u00b0 beneficiarios": 525, "beneficiarios%": 0.030680224403927068, "centros": 21, "a\u00f1os implementaci\u00f3n": 2, "rate1": 0.3923766816143498, "rate2": 0.30810910270938074}, {"muni": "LURIGANCHO (CHOSICA)", "Ingreso per capita": 253.27939712281926, "% Presupuesto ejecutado": 73.97999999999999, "trabajadores": 873, "n\u00b0 beneficiarios": 60, "beneficiarios%": 0.007952286282306162, "centros": 2, "a\u00f1os implementaci\u00f3n": 11, "rate1": 0.06872852233676977, "rate2": 0.29208850321183405}, {"muni": "PUENTE PIEDRA", "Ingreso per capita": 217.64951141197378, "% Presupuesto ejecutado": 75.96000000000001, "trabajadores": 467, "n\u00b0 beneficiarios": 400, "beneficiarios%": 0.05481704810195971, "centros": 5, "a\u00f1os implementaci\u00f3n": 5, "rate1": 0.8565310492505354, "rate2": 0.3490014726300973}, {"muni": "SAN LUIS", "Ingreso per capita": 266.6176324247943, "% Presupuesto ejecutado": 89.08000000000001, "trabajadores": 432, "n\u00b0 beneficiarios": 500, "beneficiarios%": 0.09107468123861566, "centros": 3, "a\u00f1os implementaci\u00f3n": 10, "rate1": 1.1574074074074074, "rate2": 0.33411143587859704}, {"muni": "SANTA ROSA", "Ingreso per capita": 245.2019679940798, "% Presupuesto ejecutado": 67.56, "trabajadores": 99, "n\u00b0 beneficiarios": 80, "beneficiarios%": 0.20304568527918782, "centros": 1, "a\u00f1os implementaci\u00f3n": 2, "rate1": 0.8080808080808081, "rate2": 0.2755279680366643}, {"muni": "SURQUILLO", "Ingreso per capita": 256.1964430310111, "% Presupuesto ejecutado": 91.23999999999998, "trabajadores": 699, "n\u00b0 beneficiarios": 900, "beneficiarios%": 0.08228947609033556, "centros": 11, "a\u00f1os implementaci\u00f3n": 1, "rate1": 1.2875536480686696, "rate2": 0.3561329693752068}]}}, {"mode": "vega-lite"});
+  })({"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "layer": [{"mark": {"type": "point"}, "encoding": {"x": {"field": "rate1", "title": "Beneficiarios vs Trabajadores", "type": "quantitative"}, "y": {"field": "rate2", "title": "Presupuesto ejecutado vs Ingresos, per c\u00e1pita", "type": "quantitative"}}}, {"mark": {"type": "text", "align": "right", "baseline": "middle", "dx": -7}, "encoding": {"text": {"field": "muni", "type": "nominal"}, "x": {"field": "rate1", "title": "Beneficiarios vs Trabajadores", "type": "quantitative"}, "y": {"field": "rate2", "title": "Presupuesto ejecutado vs Ingresos, per c\u00e1pita", "type": "quantitative"}}, "name": "view_3"}], "data": {"name": "data-77a0d4a246c1b066f33cc48d87ea379c"}, "params": [{"name": "param_2", "select": {"type": "interval", "encodings": ["x", "y"]}, "bind": "scales", "views": ["view_3"]}], "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-77a0d4a246c1b066f33cc48d87ea379c": [{"muni": "ANCON", "Ingreso per capita": 207.85775849432736, "% Presupuesto ejecutado": 68.46, "trabajadores": 215, "n\u00b0 beneficiarios": 50, "beneficiarios%": 0.030395136778115502, "centros": 1, "a\u00f1os implementaci\u00f3n": 10, "rate1": 0.23255813953488372, "rate2": 0.3293598492349196}, {"muni": "ATE", "Ingreso per capita": 289.3229597161344, "% Presupuesto ejecutado": 77.1, "trabajadores": 1627, "n\u00b0 beneficiarios": 420, "beneficiarios%": 0.021510883482714467, "centros": 12, "a\u00f1os implementaci\u00f3n": 5, "rate1": 0.2581438229870928, "rate2": 0.26648420877363377}, {"muni": "BARRANCO", "Ingreso per capita": 292.15731666436614, "% Presupuesto ejecutado": 75.9, "trabajadores": 521, "n\u00b0 beneficiarios": 45, "beneficiarios%": 0.007887817703768623, "centros": 1, "a\u00f1os implementaci\u00f3n": 0, "rate1": 0.08637236084452975, "rate2": 0.25979154267491733}, {"muni": "CHACLACAYO", "Ingreso per capita": 213.44109885016223, "% Presupuesto ejecutado": 80.92, "trabajadores": 189, "n\u00b0 beneficiarios": 180, "beneficiarios%": 0.05298793052693553, "centros": 4, "a\u00f1os implementaci\u00f3n": 11, "rate1": 0.9523809523809523, "rate2": 0.3791209867074693}, {"muni": "CHORRILLOS", "Ingreso per capita": 264.97751142052874, "% Presupuesto ejecutado": 83.82000000000001, "trabajadores": 345, "n\u00b0 beneficiarios": 361, "beneficiarios%": 0.021194152527446723, "centros": 3, "a\u00f1os implementaci\u00f3n": 13, "rate1": 1.046376811594203, "rate2": 0.3163287312596679}, {"muni": "LOS OLIVOS (LAS PALMERAS)", "Ingreso per capita": 259.323724282708, "% Presupuesto ejecutado": 79.9, "trabajadores": 1338, "n\u00b0 beneficiarios": 525, "beneficiarios%": 0.030680224403927068, "centros": 21, "a\u00f1os implementaci\u00f3n": 2, "rate1": 0.3923766816143498, "rate2": 0.30810910270938074}, {"muni": "LURIGANCHO (CHOSICA)", "Ingreso per capita": 253.27939712281926, "% Presupuesto ejecutado": 73.97999999999999, "trabajadores": 873, "n\u00b0 beneficiarios": 60, "beneficiarios%": 0.007952286282306162, "centros": 2, "a\u00f1os implementaci\u00f3n": 11, "rate1": 0.06872852233676977, "rate2": 0.29208850321183405}, {"muni": "PUENTE PIEDRA", "Ingreso per capita": 217.64951141197378, "% Presupuesto ejecutado": 75.96000000000001, "trabajadores": 467, "n\u00b0 beneficiarios": 400, "beneficiarios%": 0.05481704810195971, "centros": 5, "a\u00f1os implementaci\u00f3n": 5, "rate1": 0.8565310492505354, "rate2": 0.3490014726300973}, {"muni": "SAN LUIS", "Ingreso per capita": 266.6176324247943, "% Presupuesto ejecutado": 89.08000000000001, "trabajadores": 432, "n\u00b0 beneficiarios": 500, "beneficiarios%": 0.09107468123861566, "centros": 3, "a\u00f1os implementaci\u00f3n": 10, "rate1": 1.1574074074074074, "rate2": 0.33411143587859704}, {"muni": "SANTA ROSA", "Ingreso per capita": 245.2019679940798, "% Presupuesto ejecutado": 67.56, "trabajadores": 99, "n\u00b0 beneficiarios": 80, "beneficiarios%": 0.20304568527918782, "centros": 1, "a\u00f1os implementaci\u00f3n": 2, "rate1": 0.8080808080808081, "rate2": 0.2755279680366643}, {"muni": "SURQUILLO", "Ingreso per capita": 256.1964430310111, "% Presupuesto ejecutado": 91.23999999999998, "trabajadores": 699, "n\u00b0 beneficiarios": 900, "beneficiarios%": 0.08228947609033556, "centros": 11, "a\u00f1os implementaci\u00f3n": 1, "rate1": 1.2875536480686696, "rate2": 0.3561329693752068}]}}, {"mode": "vega-lite"});
 </script>
 </div>
 
@@ -16500,7 +16046,7 @@ Successfully installed altair-5.4.1 narwhals-1.13.3 typing-extensions-4.12.2
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[34]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[86]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[[</span><span class="s1">&#39;muni&#39;</span><span class="p">,</span><span class="s1">&#39;rate1&#39;</span><span class="p">,</span><span class="s1">&#39;rate2&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">&#39;rate1&#39;</span><span class="p">,</span><span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -16521,7 +16067,7 @@ Successfully installed altair-5.4.1 narwhals-1.13.3 typing-extensions-4.12.2
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[34]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[86]:</div>
 
 
 
@@ -16596,7 +16142,7 @@ Successfully installed altair-5.4.1 narwhals-1.13.3 typing-extensions-4.12.2
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[35]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[87]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[[</span><span class="s1">&#39;muni&#39;</span><span class="p">,</span><span class="s1">&#39;rate1&#39;</span><span class="p">,</span><span class="s1">&#39;rate2&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">&#39;rate2&#39;</span><span class="p">,</span><span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -16617,7 +16163,7 @@ Successfully installed altair-5.4.1 narwhals-1.13.3 typing-extensions-4.12.2
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[35]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[87]:</div>
 
 
 
@@ -16692,7 +16238,7 @@ Successfully installed altair-5.4.1 narwhals-1.13.3 typing-extensions-4.12.2
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[36]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[88]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">Best_beneficiarios</span><span class="o">=</span><span class="n">df</span><span class="o">.</span><span class="n">rate1</span><span class="o">.</span><span class="n">idxmax</span><span class="p">()</span>
@@ -16725,7 +16271,7 @@ Successfully installed altair-5.4.1 narwhals-1.13.3 typing-extensions-4.12.2
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[36]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[88]:</div>
 
 
 
@@ -16789,7 +16335,7 @@ Successfully installed altair-5.4.1 narwhals-1.13.3 typing-extensions-4.12.2
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[37]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[89]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">points</span> <span class="o">+</span> <span class="n">text</span> <span class="o">+</span> <span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">envelope</span><span class="p">)</span><span class="o">.</span><span class="n">mark_line</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;red&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span>
@@ -16813,30 +16359,30 @@ Successfully installed altair-5.4.1 narwhals-1.13.3 typing-extensions-4.12.2
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[37]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[89]:</div>
 
 
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
 
 <style>
-  #altair-viz-0c1dfb9a1a1b423baf3ff43ec41a9ba3.vega-embed {
+  #altair-viz-a0fecc14a063470c8557779a3395b5ea.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-0c1dfb9a1a1b423baf3ff43ec41a9ba3.vega-embed details,
-  #altair-viz-0c1dfb9a1a1b423baf3ff43ec41a9ba3.vega-embed details summary {
+  #altair-viz-a0fecc14a063470c8557779a3395b5ea.vega-embed details,
+  #altair-viz-a0fecc14a063470c8557779a3395b5ea.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-0c1dfb9a1a1b423baf3ff43ec41a9ba3"></div>
+<div id="altair-viz-a0fecc14a063470c8557779a3395b5ea"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-0c1dfb9a1a1b423baf3ff43ec41a9ba3") {
-      outputDiv = document.getElementById("altair-viz-0c1dfb9a1a1b423baf3ff43ec41a9ba3");
+    if (outputDiv.id !== "altair-viz-a0fecc14a063470c8557779a3395b5ea") {
+      outputDiv = document.getElementById("altair-viz-a0fecc14a063470c8557779a3395b5ea");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
@@ -16882,7 +16428,7 @@ Successfully installed altair-5.4.1 narwhals-1.13.3 typing-extensions-4.12.2
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "layer": [{"mark": {"type": "point"}, "encoding": {"x": {"field": "rate1", "title": "Beneficiarios vs Trabajadores", "type": "quantitative"}, "y": {"field": "rate2", "title": "Presupuesto ejecutado vs Ingresos, per c\u00e1pita", "type": "quantitative"}}}, {"mark": {"type": "text", "align": "right", "baseline": "middle", "dx": -7}, "encoding": {"text": {"field": "muni", "type": "nominal"}, "x": {"field": "rate1", "title": "Beneficiarios vs Trabajadores", "type": "quantitative"}, "y": {"field": "rate2", "title": "Presupuesto ejecutado vs Ingresos, per c\u00e1pita", "type": "quantitative"}}, "name": "view_2"}, {"data": {"name": "data-49991926fd707ea215c33a1b03ab014a"}, "mark": {"type": "line", "color": "red"}, "encoding": {"x": {"field": "x", "type": "quantitative"}, "y": {"field": "y", "type": "quantitative"}}}], "data": {"name": "data-77a0d4a246c1b066f33cc48d87ea379c"}, "params": [{"name": "param_1", "select": {"type": "interval", "encodings": ["x", "y"]}, "bind": "scales", "views": ["view_2"]}], "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-77a0d4a246c1b066f33cc48d87ea379c": [{"muni": "ANCON", "Ingreso per capita": 207.85775849432736, "% Presupuesto ejecutado": 68.46, "trabajadores": 215, "n\u00b0 beneficiarios": 50, "beneficiarios%": 0.030395136778115502, "centros": 1, "a\u00f1os implementaci\u00f3n": 10, "rate1": 0.23255813953488372, "rate2": 0.3293598492349196}, {"muni": "ATE", "Ingreso per capita": 289.3229597161344, "% Presupuesto ejecutado": 77.1, "trabajadores": 1627, "n\u00b0 beneficiarios": 420, "beneficiarios%": 0.021510883482714467, "centros": 12, "a\u00f1os implementaci\u00f3n": 5, "rate1": 0.2581438229870928, "rate2": 0.26648420877363377}, {"muni": "BARRANCO", "Ingreso per capita": 292.15731666436614, "% Presupuesto ejecutado": 75.9, "trabajadores": 521, "n\u00b0 beneficiarios": 45, "beneficiarios%": 0.007887817703768623, "centros": 1, "a\u00f1os implementaci\u00f3n": 0, "rate1": 0.08637236084452975, "rate2": 0.25979154267491733}, {"muni": "CHACLACAYO", "Ingreso per capita": 213.44109885016223, "% Presupuesto ejecutado": 80.92, "trabajadores": 189, "n\u00b0 beneficiarios": 180, "beneficiarios%": 0.05298793052693553, "centros": 4, "a\u00f1os implementaci\u00f3n": 11, "rate1": 0.9523809523809523, "rate2": 0.3791209867074693}, {"muni": "CHORRILLOS", "Ingreso per capita": 264.97751142052874, "% Presupuesto ejecutado": 83.82000000000001, "trabajadores": 345, "n\u00b0 beneficiarios": 361, "beneficiarios%": 0.021194152527446723, "centros": 3, "a\u00f1os implementaci\u00f3n": 13, "rate1": 1.046376811594203, "rate2": 0.3163287312596679}, {"muni": "LOS OLIVOS (LAS PALMERAS)", "Ingreso per capita": 259.323724282708, "% Presupuesto ejecutado": 79.9, "trabajadores": 1338, "n\u00b0 beneficiarios": 525, "beneficiarios%": 0.030680224403927068, "centros": 21, "a\u00f1os implementaci\u00f3n": 2, "rate1": 0.3923766816143498, "rate2": 0.30810910270938074}, {"muni": "LURIGANCHO (CHOSICA)", "Ingreso per capita": 253.27939712281926, "% Presupuesto ejecutado": 73.97999999999999, "trabajadores": 873, "n\u00b0 beneficiarios": 60, "beneficiarios%": 0.007952286282306162, "centros": 2, "a\u00f1os implementaci\u00f3n": 11, "rate1": 0.06872852233676977, "rate2": 0.29208850321183405}, {"muni": "PUENTE PIEDRA", "Ingreso per capita": 217.64951141197378, "% Presupuesto ejecutado": 75.96000000000001, "trabajadores": 467, "n\u00b0 beneficiarios": 400, "beneficiarios%": 0.05481704810195971, "centros": 5, "a\u00f1os implementaci\u00f3n": 5, "rate1": 0.8565310492505354, "rate2": 0.3490014726300973}, {"muni": "SAN LUIS", "Ingreso per capita": 266.6176324247943, "% Presupuesto ejecutado": 89.08000000000001, "trabajadores": 432, "n\u00b0 beneficiarios": 500, "beneficiarios%": 0.09107468123861566, "centros": 3, "a\u00f1os implementaci\u00f3n": 10, "rate1": 1.1574074074074074, "rate2": 0.33411143587859704}, {"muni": "SANTA ROSA", "Ingreso per capita": 245.2019679940798, "% Presupuesto ejecutado": 67.56, "trabajadores": 99, "n\u00b0 beneficiarios": 80, "beneficiarios%": 0.20304568527918782, "centros": 1, "a\u00f1os implementaci\u00f3n": 2, "rate1": 0.8080808080808081, "rate2": 0.2755279680366643}, {"muni": "SURQUILLO", "Ingreso per capita": 256.1964430310111, "% Presupuesto ejecutado": 91.23999999999998, "trabajadores": 699, "n\u00b0 beneficiarios": 900, "beneficiarios%": 0.08228947609033556, "centros": 11, "a\u00f1os implementaci\u00f3n": 1, "rate1": 1.2875536480686696, "rate2": 0.3561329693752068}], "data-49991926fd707ea215c33a1b03ab014a": [{"x": 0.0, "y": 0.3791209867074693}, {"x": 0.9523809523809523, "y": 0.3791209867074693}, {"x": 1.2875536480686696, "y": 0.3561329693752068}, {"x": 1.2875536480686696, "y": 0.0}]}}, {"mode": "vega-lite"});
+  })({"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "layer": [{"mark": {"type": "point"}, "encoding": {"x": {"field": "rate1", "title": "Beneficiarios vs Trabajadores", "type": "quantitative"}, "y": {"field": "rate2", "title": "Presupuesto ejecutado vs Ingresos, per c\u00e1pita", "type": "quantitative"}}}, {"mark": {"type": "text", "align": "right", "baseline": "middle", "dx": -7}, "encoding": {"text": {"field": "muni", "type": "nominal"}, "x": {"field": "rate1", "title": "Beneficiarios vs Trabajadores", "type": "quantitative"}, "y": {"field": "rate2", "title": "Presupuesto ejecutado vs Ingresos, per c\u00e1pita", "type": "quantitative"}}, "name": "view_4"}, {"data": {"name": "data-49991926fd707ea215c33a1b03ab014a"}, "mark": {"type": "line", "color": "red"}, "encoding": {"x": {"field": "x", "type": "quantitative"}, "y": {"field": "y", "type": "quantitative"}}}], "data": {"name": "data-77a0d4a246c1b066f33cc48d87ea379c"}, "params": [{"name": "param_2", "select": {"type": "interval", "encodings": ["x", "y"]}, "bind": "scales", "views": ["view_4"]}], "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-77a0d4a246c1b066f33cc48d87ea379c": [{"muni": "ANCON", "Ingreso per capita": 207.85775849432736, "% Presupuesto ejecutado": 68.46, "trabajadores": 215, "n\u00b0 beneficiarios": 50, "beneficiarios%": 0.030395136778115502, "centros": 1, "a\u00f1os implementaci\u00f3n": 10, "rate1": 0.23255813953488372, "rate2": 0.3293598492349196}, {"muni": "ATE", "Ingreso per capita": 289.3229597161344, "% Presupuesto ejecutado": 77.1, "trabajadores": 1627, "n\u00b0 beneficiarios": 420, "beneficiarios%": 0.021510883482714467, "centros": 12, "a\u00f1os implementaci\u00f3n": 5, "rate1": 0.2581438229870928, "rate2": 0.26648420877363377}, {"muni": "BARRANCO", "Ingreso per capita": 292.15731666436614, "% Presupuesto ejecutado": 75.9, "trabajadores": 521, "n\u00b0 beneficiarios": 45, "beneficiarios%": 0.007887817703768623, "centros": 1, "a\u00f1os implementaci\u00f3n": 0, "rate1": 0.08637236084452975, "rate2": 0.25979154267491733}, {"muni": "CHACLACAYO", "Ingreso per capita": 213.44109885016223, "% Presupuesto ejecutado": 80.92, "trabajadores": 189, "n\u00b0 beneficiarios": 180, "beneficiarios%": 0.05298793052693553, "centros": 4, "a\u00f1os implementaci\u00f3n": 11, "rate1": 0.9523809523809523, "rate2": 0.3791209867074693}, {"muni": "CHORRILLOS", "Ingreso per capita": 264.97751142052874, "% Presupuesto ejecutado": 83.82000000000001, "trabajadores": 345, "n\u00b0 beneficiarios": 361, "beneficiarios%": 0.021194152527446723, "centros": 3, "a\u00f1os implementaci\u00f3n": 13, "rate1": 1.046376811594203, "rate2": 0.3163287312596679}, {"muni": "LOS OLIVOS (LAS PALMERAS)", "Ingreso per capita": 259.323724282708, "% Presupuesto ejecutado": 79.9, "trabajadores": 1338, "n\u00b0 beneficiarios": 525, "beneficiarios%": 0.030680224403927068, "centros": 21, "a\u00f1os implementaci\u00f3n": 2, "rate1": 0.3923766816143498, "rate2": 0.30810910270938074}, {"muni": "LURIGANCHO (CHOSICA)", "Ingreso per capita": 253.27939712281926, "% Presupuesto ejecutado": 73.97999999999999, "trabajadores": 873, "n\u00b0 beneficiarios": 60, "beneficiarios%": 0.007952286282306162, "centros": 2, "a\u00f1os implementaci\u00f3n": 11, "rate1": 0.06872852233676977, "rate2": 0.29208850321183405}, {"muni": "PUENTE PIEDRA", "Ingreso per capita": 217.64951141197378, "% Presupuesto ejecutado": 75.96000000000001, "trabajadores": 467, "n\u00b0 beneficiarios": 400, "beneficiarios%": 0.05481704810195971, "centros": 5, "a\u00f1os implementaci\u00f3n": 5, "rate1": 0.8565310492505354, "rate2": 0.3490014726300973}, {"muni": "SAN LUIS", "Ingreso per capita": 266.6176324247943, "% Presupuesto ejecutado": 89.08000000000001, "trabajadores": 432, "n\u00b0 beneficiarios": 500, "beneficiarios%": 0.09107468123861566, "centros": 3, "a\u00f1os implementaci\u00f3n": 10, "rate1": 1.1574074074074074, "rate2": 0.33411143587859704}, {"muni": "SANTA ROSA", "Ingreso per capita": 245.2019679940798, "% Presupuesto ejecutado": 67.56, "trabajadores": 99, "n\u00b0 beneficiarios": 80, "beneficiarios%": 0.20304568527918782, "centros": 1, "a\u00f1os implementaci\u00f3n": 2, "rate1": 0.8080808080808081, "rate2": 0.2755279680366643}, {"muni": "SURQUILLO", "Ingreso per capita": 256.1964430310111, "% Presupuesto ejecutado": 91.23999999999998, "trabajadores": 699, "n\u00b0 beneficiarios": 900, "beneficiarios%": 0.08228947609033556, "centros": 11, "a\u00f1os implementaci\u00f3n": 1, "rate1": 1.2875536480686696, "rate2": 0.3561329693752068}], "data-49991926fd707ea215c33a1b03ab014a": [{"x": 0.0, "y": 0.3791209867074693}, {"x": 0.9523809523809523, "y": 0.3791209867074693}, {"x": 1.2875536480686696, "y": 0.3561329693752068}, {"x": 1.2875536480686696, "y": 0.0}]}}, {"mode": "vega-lite"});
 </script>
 </div>
 
@@ -16909,7 +16455,7 @@ Successfully installed altair-5.4.1 narwhals-1.13.3 typing-extensions-4.12.2
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[38]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[90]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>pip install Pyfrontier
@@ -16934,12 +16480,9 @@ Successfully installed altair-5.4.1 narwhals-1.13.3 typing-extensions-4.12.2
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Collecting Pyfrontier
-  Downloading Pyfrontier-1.0.2-py3-none-any.whl (15 kB)
-Requirement already satisfied: numpy&gt;=1.21 in c:\users\michael encalada\anaconda3\lib\site-packages (from Pyfrontier) (1.24.4)
+<pre>Requirement already satisfied: Pyfrontier in c:\users\michael encalada\anaconda3\lib\site-packages (1.0.2)
 Requirement already satisfied: pulp&gt;=2.6.0 in c:\users\michael encalada\anaconda3\lib\site-packages (from Pyfrontier) (2.9.0)
-Installing collected packages: Pyfrontier
-Successfully installed Pyfrontier-1.0.2
+Requirement already satisfied: numpy&gt;=1.21 in c:\users\michael encalada\anaconda3\lib\site-packages (from Pyfrontier) (1.24.4)
 </pre>
 </div>
 </div>
@@ -16953,7 +16496,7 @@ Successfully installed Pyfrontier-1.0.2
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[39]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[91]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">Input</span><span class="o">=</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">to_list</span><span class="p">()</span>
@@ -16970,7 +16513,7 @@ Successfully installed Pyfrontier-1.0.2
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[40]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[92]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">Pyfrontier.frontier_model</span> <span class="kn">import</span> <span class="n">EnvelopDEA</span>
@@ -16992,7 +16535,7 @@ Successfully installed Pyfrontier-1.0.2
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[41]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[93]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;vrs_in&#39;</span><span class="p">]</span><span class="o">=</span><span class="p">[</span><span class="n">r</span><span class="o">.</span><span class="n">score</span> <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">dea_air_vrs_in</span><span class="o">.</span><span class="n">result</span><span class="p">]</span>
@@ -17015,7 +16558,7 @@ Successfully installed Pyfrontier-1.0.2
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[41]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[93]:</div>
 
 
 
@@ -17047,7 +16590,7 @@ Name: vrs_in, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[42]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[94]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>pip install py4etrics
@@ -17072,10 +16615,7 @@ Name: vrs_in, dtype: float64</pre>
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Collecting py4etrics
-  Downloading py4etrics-0.1.9-py2.py3-none-any.whl (19 kB)
-Installing collected packages: py4etrics
-Successfully installed py4etrics-0.1.9
+<pre>Requirement already satisfied: py4etrics in c:\users\michael encalada\anaconda3\lib\site-packages (0.1.9)
 </pre>
 </div>
 </div>
@@ -17089,7 +16629,7 @@ Successfully installed py4etrics-0.1.9
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[43]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[95]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span> <span class="c1"># linear algebra</span>
@@ -17099,7 +16639,7 @@ Successfully installed py4etrics-0.1.9
 <span class="n">df</span><span class="p">[</span><span class="s1">&#39;censored&#39;</span><span class="p">]</span> <span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;vrs_in&#39;</span><span class="p">]</span><span class="o">==</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
 <span class="n">cens</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;censored&#39;</span><span class="p">]</span>
 <span class="n">endog</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span><span class="s1">&#39;vrs_in&#39;</span><span class="p">]</span>
-<span class="n">exog</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span><span class="s1">&#39;trabajadores&#39;</span><span class="p">:</span><span class="s1">&#39;beneficiario&#39;</span><span class="p">]</span>
+<span class="n">exog</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span><span class="s1">&#39;trabajadores&#39;</span><span class="p">:</span><span class="s1">&#39;n° beneficiarios&#39;</span><span class="p">]</span>
 
 <span class="n">tobit_res</span> <span class="o">=</span> <span class="n">tobit</span><span class="o">.</span><span class="n">Tobit</span><span class="p">(</span><span class="n">endog</span><span class="p">,</span> <span class="n">exog</span><span class="p">,</span> <span class="n">cens</span><span class="p">,</span><span class="n">right</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">fit</span><span class="p">()</span>
 <span class="n">tobit_res</span><span class="o">.</span><span class="n">summary</span><span class="p">()</span>
@@ -17123,61 +16663,66 @@ Successfully installed py4etrics-0.1.9
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">ImportError</span>                               Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp\ipykernel_26504\1792697506.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-fg">      1</span> <span class="ansi-green-intense-fg ansi-bold">import</span> numpy <span class="ansi-green-intense-fg ansi-bold">as</span> np <span class="ansi-red-intense-fg ansi-bold"># linear algebra</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 2</span><span class="ansi-yellow-intense-fg ansi-bold"> </span><span class="ansi-green-intense-fg ansi-bold">from</span> py4etrics <span class="ansi-green-intense-fg ansi-bold">import</span> tobit
-<span class="ansi-green-fg">      3</span> <span class="ansi-red-intense-fg ansi-bold"># import statsmodels.api as sm</span>
-<span class="ansi-green-fg">      4</span> 
-<span class="ansi-green-fg">      5</span> df<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-blue-intense-fg ansi-bold">&#39;censored&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">]</span> <span class="ansi-yellow-intense-fg ansi-bold">=</span>np<span class="ansi-yellow-intense-fg ansi-bold">.</span>where<span class="ansi-yellow-intense-fg ansi-bold">(</span>df<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-blue-intense-fg ansi-bold">&#39;vrs_in&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">==</span><span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-cyan-intense-fg ansi-bold">0</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-
-<span class="ansi-green-intense-fg ansi-bold">~\anaconda3\lib\site-packages\py4etrics\tobit.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-fg">      5</span> <span class="ansi-green-intense-fg ansi-bold">import</span> warnings
-<span class="ansi-green-fg">      6</span> <span class="ansi-green-intense-fg ansi-bold">import</span> numpy <span class="ansi-green-intense-fg ansi-bold">as</span> np
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 7</span><span class="ansi-yellow-intense-fg ansi-bold"> </span><span class="ansi-green-intense-fg ansi-bold">from</span> scipy<span class="ansi-yellow-intense-fg ansi-bold">.</span>stats <span class="ansi-green-intense-fg ansi-bold">import</span> norm
-<span class="ansi-green-fg">      8</span> <span class="ansi-green-intense-fg ansi-bold">import</span> statsmodels<span class="ansi-yellow-intense-fg ansi-bold">.</span>api <span class="ansi-green-intense-fg ansi-bold">as</span> sm
-<span class="ansi-green-fg">      9</span> <span class="ansi-green-intense-fg ansi-bold">from</span> py4etrics<span class="ansi-yellow-intense-fg ansi-bold">.</span>base_for_models <span class="ansi-green-intense-fg ansi-bold">import</span> GenericLikelihoodModel_TobitTruncreg
-
-<span class="ansi-green-intense-fg ansi-bold">~\anaconda3\lib\site-packages\scipy\__init__.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-fg">     88</span>     <span class="ansi-green-intense-fg ansi-bold">if</span> _key<span class="ansi-yellow-intense-fg ansi-bold">.</span>startswith<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#39;_&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">     89</span>         <span class="ansi-green-intense-fg ansi-bold">continue</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 90</span><span class="ansi-yellow-intense-fg ansi-bold">     </span>_fun <span class="ansi-yellow-intense-fg ansi-bold">=</span> getattr<span class="ansi-yellow-intense-fg ansi-bold">(</span>np<span class="ansi-yellow-intense-fg ansi-bold">,</span> _key<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     91</span>     <span class="ansi-green-intense-fg ansi-bold">if</span> isinstance<span class="ansi-yellow-intense-fg ansi-bold">(</span>_fun<span class="ansi-yellow-intense-fg ansi-bold">,</span> _types<span class="ansi-yellow-intense-fg ansi-bold">.</span>ModuleType<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">     92</span>         <span class="ansi-green-intense-fg ansi-bold">continue</span>
-
-<span class="ansi-green-intense-fg ansi-bold">~\anaconda3\lib\site-packages\numpy\__init__.py</span> in <span class="ansi-cyan-fg">__getattr__</span><span class="ansi-blue-intense-fg ansi-bold">(attr)</span>
-<span class="ansi-green-fg">    368</span>             x <span class="ansi-yellow-intense-fg ansi-bold">=</span> linspace<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-cyan-intense-fg ansi-bold">0</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-cyan-intense-fg ansi-bold">2</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-cyan-intense-fg ansi-bold">5</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    369</span>             y <span class="ansi-yellow-intense-fg ansi-bold">=</span> polyval<span class="ansi-yellow-intense-fg ansi-bold">(</span>c<span class="ansi-yellow-intense-fg ansi-bold">,</span> x<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 370</span><span class="ansi-yellow-intense-fg ansi-bold">             </span>_ <span class="ansi-yellow-intense-fg ansi-bold">=</span> polyfit<span class="ansi-yellow-intense-fg ansi-bold">(</span>x<span class="ansi-yellow-intense-fg ansi-bold">,</span> y<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-cyan-intense-fg ansi-bold">2</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> cov<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-green-intense-fg ansi-bold">True</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    371</span>         <span class="ansi-green-intense-fg ansi-bold">except</span> ValueError<span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">    372</span>             <span class="ansi-green-intense-fg ansi-bold">pass</span>
-
-<span class="ansi-green-intense-fg ansi-bold">~\anaconda3\lib\site-packages\numpy\polynomial\__init__.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-fg">    114</span> 
-<span class="ansi-green-fg">    115</span> &#34;&#34;&#34;
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 116</span><span class="ansi-yellow-intense-fg ansi-bold"> </span><span class="ansi-green-intense-fg ansi-bold">from</span> <span class="ansi-yellow-intense-fg ansi-bold">.</span>polynomial <span class="ansi-green-intense-fg ansi-bold">import</span> Polynomial
-<span class="ansi-green-fg">    117</span> <span class="ansi-green-intense-fg ansi-bold">from</span> <span class="ansi-yellow-intense-fg ansi-bold">.</span>chebyshev <span class="ansi-green-intense-fg ansi-bold">import</span> Chebyshev
-<span class="ansi-green-fg">    118</span> <span class="ansi-green-intense-fg ansi-bold">from</span> <span class="ansi-yellow-intense-fg ansi-bold">.</span>legendre <span class="ansi-green-intense-fg ansi-bold">import</span> Legendre
-
-<span class="ansi-green-intense-fg ansi-bold">~\anaconda3\lib\site-packages\numpy\polynomial\polynomial.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-fg">     82</span> <span class="ansi-green-intense-fg ansi-bold">import</span> numpy <span class="ansi-green-intense-fg ansi-bold">as</span> np
-<span class="ansi-green-fg">     83</span> <span class="ansi-green-intense-fg ansi-bold">import</span> numpy<span class="ansi-yellow-intense-fg ansi-bold">.</span>linalg <span class="ansi-green-intense-fg ansi-bold">as</span> la
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 84</span><span class="ansi-yellow-intense-fg ansi-bold"> </span><span class="ansi-green-intense-fg ansi-bold">from</span> numpy<span class="ansi-yellow-intense-fg ansi-bold">.</span>core<span class="ansi-yellow-intense-fg ansi-bold">.</span>multiarray <span class="ansi-green-intense-fg ansi-bold">import</span> normalize_axis_index
-<span class="ansi-green-fg">     85</span> 
-<span class="ansi-green-fg">     86</span> <span class="ansi-green-intense-fg ansi-bold">from</span> <span class="ansi-yellow-intense-fg ansi-bold">.</span> <span class="ansi-green-intense-fg ansi-bold">import</span> polyutils <span class="ansi-green-intense-fg ansi-bold">as</span> pu
-
-<span class="ansi-green-intense-fg ansi-bold">~\anaconda3\lib\site-packages\numpy\core\multiarray.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-fg">     14</span> <span class="ansi-red-intense-fg ansi-bold"># do not change them. issue gh-15518</span>
-<span class="ansi-green-fg">     15</span> <span class="ansi-red-intense-fg ansi-bold"># _get_ndarray_c_version is semi-public, on purpose not added to __all__</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 16</span><span class="ansi-yellow-intense-fg ansi-bold"> from ._multiarray_umath import (
-</span><span class="ansi-green-fg">     17</span>     fastCopyAndTranspose<span class="ansi-yellow-intense-fg ansi-bold">,</span> _flagdict<span class="ansi-yellow-intense-fg ansi-bold">,</span> from_dlpack<span class="ansi-yellow-intense-fg ansi-bold">,</span> _insert<span class="ansi-yellow-intense-fg ansi-bold">,</span> _reconstruct<span class="ansi-yellow-intense-fg ansi-bold">,</span>
-<span class="ansi-green-fg">     18</span>     _vec_string<span class="ansi-yellow-intense-fg ansi-bold">,</span> _ARRAY_API<span class="ansi-yellow-intense-fg ansi-bold">,</span> _monotonicity<span class="ansi-yellow-intense-fg ansi-bold">,</span> _get_ndarray_c_version<span class="ansi-yellow-intense-fg ansi-bold">,</span>
-
-<span class="ansi-red-intense-fg ansi-bold">ImportError</span>: cannot import name &#39;fastCopyAndTranspose&#39; from &#39;numpy.core._multiarray_umath&#39; (C:\Users\Michael Encalada\anaconda3\lib\site-packages\numpy\core\_multiarray_umath.py)</pre>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Optimization terminated successfully.
+         Current function value: 0.733342
+         Iterations: 83
+         Function evaluations: 151
+</pre>
 </div>
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[95]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<table class="simpletable">
+<caption>Tobit Regression Results</caption>
+<tr>
+  <th>Dep. Variable:</th>                <td>vrs_in</td>       <th>  Pseudo R-squ:      </th>  <td>-1.602</td>  
+</tr>
+<tr>
+  <th>Method:</th>                 <td>Maximum Likelihood</td> <th>  Log-Likelihood:    </th>   <td>-8.1</td>   
+</tr>
+<tr>
+  <th>No. Observations:</th>             <td>    11</td>       <th>  LL-Null:           </th>   <td>-3.1</td>   
+</tr>
+<tr>
+  <th>No. Uncensored Obs:</th>              <td>4</td>         <th>  LL-Ratio:          </th>   <td>-9.9</td>   
+</tr>
+<tr>
+  <th>No. Left-censored Obs:</th>           <td>0</td>         <th>  LLR p-value:       </th>   <td>1.000</td>  
+</tr>
+<tr>
+  <th>No. Right-censored Obs:</th>          <td>7</td>         <th>  AIC:               </th>   <td>18.1</td>   
+</tr>
+<tr>
+  <th>Df Residuals:</th>                 <td>     9</td>       <th>  BIC:               </th>   <td>18.5</td>   
+</tr>
+<tr>
+  <th>Df Model:</th>                     <td>     1</td>       <th>  Covariance Type:   </th> <td>nonrobust</td>
+</tr>
+</table>
+<table class="simpletable">
+<tr>
+          <td></td>            <th>coef</th>     <th>std err</th>      <th>z</th>      <th>P>|z|</th>  <th>[0.025</th>    <th>0.975]</th>  
+</tr>
+<tr>
+  <th>trabajadores</th>     <td>    0.0013</td> <td>    0.001</td> <td>    1.769</td> <td> 0.077</td> <td>   -0.000</td> <td>    0.003</td>
+</tr>
+<tr>
+  <th>n° beneficiarios</th> <td>    0.0019</td> <td>    0.001</td> <td>    1.447</td> <td> 0.148</td> <td>   -0.001</td> <td>    0.005</td>
+</tr>
+<tr>
+  <th>Log(Sigma)</th>       <td>   -0.2939</td> <td>    0.394</td> <td>   -0.747</td> <td> 0.455</td> <td>   -1.066</td> <td>    0.478</td>
+</tr>
+</table>
+</div>
+
 </div>
 
 </div>
