@@ -1,5 +1,5 @@
 Optimización
-https://camilaazb.github.io/Optimizacion/Optimizacion%20tarea.html
+https://michaelencalada.github.io/week12_optimization/Ejercicios.html
 
 Ejercicio 1:
 El ejercicio permite obtener las cantidades más optimas para minimizar los gastos.
